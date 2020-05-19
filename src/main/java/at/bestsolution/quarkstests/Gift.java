@@ -26,4 +26,8 @@ public class Gift {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String toString() {
+        return String.format("Gift(%s)",id);
+    }
 }
